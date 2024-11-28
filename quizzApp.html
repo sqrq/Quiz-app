@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz App</title>
+  <link rel="stylesheet" href="QA.css">
+</head>
+<body>
+  <div class="quiz-container">
+    <h1>Quiz App</h1>
+    <div id="question-container">
+      <p id="question">Loading question...</p>
+      <ul id="answers">
+        <li><button class="answer-btn">Answer 1</button></li>
+        <li><button class="answer-btn">Answer 2</button></li>
+        <li><button class="answer-btn">Answer 3</button></li>
+        <li><button class="answer-btn">Answer 4</button></li>
+      </ul>
+    </div>
+    <div id="result-container" style="display: none;">
+      <h2>Your Score: <span id="score">0</span></h2>
+      <button id="restart-btn">Restart Quiz</button>
+    </div>
+  </div>
+  <script src="QA.js"></script>
+</body>
+</html>
